@@ -5,7 +5,7 @@ import {
 } from "../models/IParticipant";
 import { ITeam, TeamId } from "../models/ITeam";
 
-const API_HOST = "www.extra-life.org";
+const API_HOST = "dd.extra-life.org";
 
 export function fetchParticipantById(
   participantId: ParticipantId
